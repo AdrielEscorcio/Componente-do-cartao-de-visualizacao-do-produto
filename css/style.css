@@ -9,6 +9,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: hsl(30, 38%, 92%);
     padding: 20px;    
 }
@@ -31,6 +35,8 @@ h1, strong  {
     max-width: 600px;
     max-height: 700px;
     margin: auto;
+    box-shadow: 14px 17px 5px 1px rgba(0,0,0,0.54);
+    border-radius: 10px;
 }
 
 .produto-img {
@@ -50,6 +56,10 @@ h1, strong  {
     max-height: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.descricao h2 {
+    letter-spacing: 3px;
 }
 
 .descricao strong {
